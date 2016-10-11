@@ -1,0 +1,8 @@
+@inproceedings{santarra2016adapting,
+  title={Adapting Plans through Communication with Unknown Teammates:(Doctoral Consortium)},
+  author={Santarra, Trevor},
+  booktitle={Proceedings of the 2016 International Conference on Autonomous Agents \& Multiagent Systems},
+  pages={1526--1527},
+  year={2016},
+  organization={International Foundation for Autonomous Agents and Multiagent Systems}
+}

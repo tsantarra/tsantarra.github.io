@@ -1,0 +1,10 @@
+@article{padhi2010investigating,
+  title={Investigating genetic relationships within Gryllotalpidae: a molecular hypothesis},
+  author={Padhi, Abinash and Young Jr, Richard E and Hoffart, Cara and Sarratt, Trevor and Fancher, Jennifer and Steffen, Michael A and Hill, Peggy SM},
+  journal={Journal of Orthoptera Research},
+  volume={19},
+  number={2},
+  pages={357--360},
+  year={2010},
+  publisher={BioOne}
+}

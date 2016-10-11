@@ -1,0 +1,6 @@
+@inproceedings{sarratt2015rapid,
+  title={Rapid: A belief convergence strategy for collaborating with inconsistent agents},
+  author={Sarratt, Trevor and Jhala, Arnav},
+  booktitle={Workshops at the Twenty-Ninth AAAI Conference on Artificial Intelligence},
+  year={2015}
+}

@@ -1,0 +1,7 @@
+@article{mailler2010biologically,
+  title={A Biologically Accurate Simulation of the Locomotion of Caenorhabditis elegans},
+  author={Mailler, Roger and Jacob Graves, Nathan Willy and Sarratt, Trevor},
+  journal={International Journal on Advances in Life Sciences Volume 2, Number 3 \& 4, 2010},
+  year={2010},
+  publisher={Citeseer}
+}

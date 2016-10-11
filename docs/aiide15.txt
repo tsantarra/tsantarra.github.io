@@ -1,0 +1,6 @@
+@inproceedings{sarratt2015tuning,
+  title={Tuning belief revision for coordination with inconsistent teammates},
+  author={Sarratt, Trevor and Jhala, Arnav},
+  booktitle={Eleventh Artificial Intelligence and Interactive Digital Entertainment Conference},
+  year={2015}
+}

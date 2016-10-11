@@ -1,0 +1,6 @@
+@inproceedings{sarratt2016policy,
+  title={Policy Communication for Coordination with Unknown Teammates},
+  author={Sarratt, Trevor and Jhala, Arnav},
+  booktitle={Workshops at the Thirtieth AAAI Conference on Artificial Intelligence},
+  year={2016}
+}

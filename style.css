@@ -1,0 +1,115 @@
+body{
+    font:10.5pt/1.6em Arial, Tahoma, sans-serif;
+    margin-top:20pt;
+    text-align:center;
+}
+
+#main{
+    position:relative;
+  	margin:25pt auto;
+	text-align:left;
+	width:560pt;
+}
+
+img{
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-size:20pt;
+    text-align:center;
+}
+
+h3{
+    margin:25pt 0 7pt 0;
+}
+
+table, tr, td{
+    margin:0;
+    padding:0;
+}
+
+table.header{
+    margin:30pt auto;
+}
+
+table.header td, tr{
+    padding:0 30pt;
+    vertical-align:top;
+}
+
+table.header h3{
+    margin:0 0 6pt 0;
+}
+
+p{
+    margin:0 0 15pt 0;
+}
+
+a{
+    color:#bd5717;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+ul{
+    padding-left:14pt;
+    margin-bottom:20pt
+}
+
+ul.nested{
+    margin:0;
+    margin-top:10pt;
+}
+
+li{
+    margin:10pt 0;
+}
+
+ul.news li{
+    margin-bottom:10pt;
+}
+
+ul.pubs li{
+    margin-bottom:15pt;
+}
+
+span.reverse{
+    unicode-bidi:bidi-override;
+    direction:rtl;
+}
+
+h1.essay_title{
+    font-size:16pt;
+}
+
+h2.essay_author{
+    font-weight:normal;
+    font-size:13pt;
+    margin-top:15pt;
+    margin-bottom:30pt;
+}
+
+p.essay_pub{
+    text-align:right;
+    margin-top:30pt;
+}
+
+p.essay_img{
+    text-align:center;
+    margin:20pt 0;
+}
+
+.abstract{
+    display:none;
+}
+
+#w3c{
+    margin-top:40pt;
+    text-align:right;
+}

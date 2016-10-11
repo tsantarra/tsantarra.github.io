@@ -1,0 +1,7 @@
+@inproceedings{sarratt2015role,
+  title={The role of models and communication in the ad hoc multiagent team decision problem},
+  author={Sarratt, Trevor and Jhala, Arnav},
+  booktitle={Proceedings of the Third Annual Conference on Advances in Cognitive Systems Poster Collection},
+  volume={27},
+  year={2015}
+}

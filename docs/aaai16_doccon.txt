@@ -1,0 +1,6 @@
+@inproceedings{sarratt2016adapting,
+  title={Adapting Plans through Communication with Unknown Teammates},
+  author={Sarratt, Trevor},
+  booktitle={Thirtieth AAAI Conference on Artificial Intelligence},
+  year={2016}
+}

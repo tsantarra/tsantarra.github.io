@@ -1,0 +1,6 @@
+@inproceedings{sarratt2014leveraging,
+  title={Leveraging Communication for Player Modeling and Cooperative Play},
+  author={Sarratt, Trevor},
+  booktitle={Tenth Artificial Intelligence and Interactive Digital Entertainment Conference},
+  year={2014}
+}

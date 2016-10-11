@@ -1,0 +1,8 @@
+@incollection{tyree2009gridspim,
+  title={GridSPiM: A Framework for Simple Locality and Containment in the Stochastic $\pi$-Calculus},
+  author={Tyree, Stephen and Kuplicki, Rayus and Sarratt, Trevor and Fujan, Scott and Hale, John},
+  booktitle={Bioinformatics and Computational Biology},
+  pages={409--423},
+  year={2009},
+  publisher={Springer}
+}

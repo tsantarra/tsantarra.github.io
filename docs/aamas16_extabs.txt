@@ -1,0 +1,8 @@
+@inproceedings{santarra2016communicating,
+  title={Communicating Intentions for Coordination with Unknown Teammates},
+  author={Santarra, Trevor and Jhala, Arnav},
+  booktitle={Proceedings of the 2016 International Conference on Autonomous Agents \& Multiagent Systems},
+  pages={1423--1424},
+  year={2016},
+  organization={International Foundation for Autonomous Agents and Multiagent Systems}
+}

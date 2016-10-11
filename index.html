@@ -1,1 +1,243 @@
-"hello world" 
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="Personal website of Trevor Santarra.">
+		<meta name="keywords" content="Artificial intelligence, multiagent systems, ad hoc teamwork">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Trevor Santarra</title>
+		<base target="_blank">
+        <script type="text/javascript">
+            function showabs(ID){
+                if(document.getElementById(ID).style.display != "inline"){
+                    document.getElementById(ID).style.display = "inline";
+                }else{
+                    document.getElementById(ID).style.display = "none";
+                }
+            }
+        </script>
+	</head>
+	<body>
+        <div id="main">
+            <h1>Trevor Santarra</h1>
+
+            <table class="header">
+                <tbody><tr>
+                    <td>
+                        <img src="profile_pic.jpg" style="height:90pt" alt="Trevor Santarra">
+                    </td>
+                    <td>
+                        <h3>Address</h3>
+                        1213 Ocean St Apt 1<br>
+                        Santa Cruz, CA 95060<br>
+                        USA
+                    </td>
+                    <td>
+						<h3>Contact</h3>
+						tsarratt [at_domain] soe.ucsc.edu<br> 
+                    </td>
+                </tr>
+            </tbody></table>
+
+
+            <h3>Personal</h3>
+
+            <p>
+                I am a graduate student in the <a href="https://www.soe.ucsc.edu/departments/computer-science">Department of Computer Science</a> at <a href="http://www.ucsc.edu">The University of California at Santa Cruz</a>, where I work with <a href="https://games.soe.ucsc.edu/arnav-jhala">Prof. Arnav Jhala</a>. 
+            </p>
+
+            <p>
+				<script>/*
+					<iframe style="border:none; float:right; padding:0pt 15pt 0pt 35pt" marginheight="0" marginwidth="0" frameborder="0" scrolling="no" width="258" height="231" src="http://audioslides.elsevier.com//ViewerSmall.aspx?source=1&amp;doi=10.1016/j.artint.2016.02.004">
+					</iframe>
+				*/ </script>
+
+                My research interests are in the broad area of autonomous agents and multi-agent systems, with a focus on sequential decision making under uncertainty. The long-term goal of my research is to create intelligent agents that can interact effectively with other agents whose behaviours are initially unknown. 
+            </p>
+
+            <p>
+                Before starting the Ph.D. program at UC Santa Cruz, I obtained a B.S. in Applied Mathematics from <a href="http://www.utulsa.edu">The University of Tulsa</a>. See <a href="docs/cv_tsantarra.pdf">here</a> for a short CV.
+            </p>
+
+			<script>/*
+            <h3>News</h3>
+
+            <ul class="news">
+                <li>
+                    I am a co-chair of the 2017 MIPC workshop. 
+                </li>
+            </ul>
+			*/ </script>
+
+
+            <h3>Publications</h3>
+
+            <b>Papers:</b>
+            
+            <ul class="pubs">
+                <li>
+                    T. Sarratt, A. Jhala<br>
+                    Policy Communication for Coordination with Unknown Teammates<br>
+                    <i>Proceedings of the Third Workshop on Multiagent Interaction without Prior Coordination</i> (MIPC), 2016<br>
+                    → <a onclick="showabs('mipc16')">Abstract</a> | <a href="docs/mipc16.pdf">Paper</a> | <a href="docs/mipc16.txt">BibTex</a>
+                    <span class="abstract" id="mipc16"><br><b>Abstract:</b>
+                        Within multiagent teams research, existing approaches commonly assume agents have perfect knowledge regarding the decision process guiding their teammates’ actions. More recently, ad hoc teamwork was introduced to address situations where an agent must coordinate with a variety of potential teammates, including teammates with unknown behavior. This paper examines the communication of intentions for enhanced coordination between such agents. The proposed decisiontheoretic approach examines the uncertainty within a model of an unfamiliar teammate, identifying policy information valuable to the collaborative effort. We characterize this capability through theoretical analysis of the computational requirements as well as empirical evaluation of a communicative agent coordinating with an unknown teammate in a variation of the multiagent pursuit domain. 
+                    </span>
+                </li>
+				
+				<li>
+                    T. Sarratt, A. Jhala<br>
+                    Tuning Belief Revision for Coordination with Inconsistent Teammates<br>
+                    <i>Proceedings of the Eleventh Artificial Intelligence and Interactive Digital Entertainment Conference</i>, 2015<br>
+                    → <a onclick="showabs('aiide15')">Abstract</a> | <a href="docs/aiide15.pdf">Paper</a> | <a href="docs/aiide15.txt">BibTex</a>
+                    <span class="abstract" id="aiide15"><br><b>Abstract:</b>
+						Coordination with an unknown human teammate is a notable challenge for cooperative agents. Behavior of human players in games with cooperating AI agents is often sub-optimal and inconsistent leading to choreographed and limited cooperative scenarios in games. This paper considers the difficulty of cooperating with a teammate whose goal and corresponding behavior change periodically. Previous work uses Bayesian models for updating beliefs about cooperating agents based on observations. We describe belief models for on-line planning, discuss tuning in the presence of noisy observations, and demonstrate empirically its effectiveness in coordinating with inconsistent agents in a simple domain. Further work in this area promises to lead to techniques for more interesting cooperative AI in games.
+                    </span>
+                </li>
+				
+				<li>
+                    T. Sarratt, A. Jhala<br>
+                    RAPID: A Belief Convergence Strategy for Collaborating with Inconsistent Agents<br>
+                    <i>Proceedings of the Second Workshop on Multiagent Interaction without Prior Coordination</i>(MIPC), 2015<br>
+                    → <a onclick="showabs('mipc15')">Abstract</a> | <a href="docs/mipc15.pdf">Paper</a> | <a href="docs/mipc15.txt">BibTex</a>
+                    <span class="abstract" id="mipc15"><br><b>Abstract:</b>
+						Maintaining an accurate set of beliefs in a partially observable scenario, particularly with respect to other agents operating in the same space, is a vital aspect of multiagent planning. We analyze how the beliefs of an agent can be updated for fast adaptivity to changes in the behavior of an unknown teammate. The main contribution of this paper is the empirical evaluation of an agent cooperating with a teammate whose goals change periodically. We test our approach in a collaborative multiagent domain where identification of goals is necessary for successful completion. The belief revision technique we propose outperforms the traditional approach in a majority of test cases. Additionally, our results suggest the ability to approximate a higher level model by utilizing a belief distribution over a set of lower level behaviors, particularly when the belief update strategy identifies changes in the behavior in a responsive manner
+                    </span>
+                </li>
+				
+				<li>
+                    T. Sarratt, S.M. Morgens, A. Jhala<br>
+                    Domain-Specific Sentiment Classification for Games-Related Tweets<br>
+                    <i>Proceedings of the Tenth Artificial Intelligence and Interactive Digital Entertainment Conference</i>, 2014<br>
+                    → <a onclick="showabs('aiide14_nlp')">Abstract</a> | <a href="docs/aiide14_nlp.pdf">Paper</a> | <a href="docs/aiide14_nlp.txt">BibTex</a>
+                    <span class="abstract" id="aiide14_nlp"><br><b>Abstract:</b>
+						Sentiment classification provides information about the author’s feeling toward a topic through the use of expressive words. However, words indicative of a particular sentiment class can be domain-specific. We train a text classifier for Twitter data related to games using labels inferred from emoticons. Our classifier is able to differentiate between positive and negative sentiment tweets labeled by emoticons with 75.1% accuracy. Additionally, we test the classifier on human-labeled examples with the additional case of neutral or ambiguous sentiment. Finally, we have made the data available to the community for further use and analysis.
+                    </span>
+                </li>
+				
+				<li>
+                    T. Sarratt, D.V. Pynadath, A. Jhala<br>
+                    Converging to a player model in Monte-Carlo Tree Search<br>
+                    <i>Proceedings of the 2014 IEEE Conference on Computational Intelligence and Games</i>, 2014<br>
+                    → <a onclick="showabs('cig14')">Abstract</a> | <a href="docs/cig14.pdf">Paper</a> | <a href="docs/cig14.txt">BibTex</a>
+                    <span class="abstract" id="cig14"><br><b>Abstract:</b>
+						Player models allow search algorithms to account for differences in agent behavior according to player's preferences and goals. However, it is often not until the first actions are taken that an agent can begin assessing which models are relevant to its current opponent. This paper investigates the integration of belief distributions over player models in the Monte Carlo Tree Search (MCTS) algorithm. We describe a method of updating belief distributions through leveraging information sampled during the MCTS. We then characterize the effect of tuning parameters of the MCTS to convergence of belief distributions. Evaluation of this approach is done in comparison with value iteration for an iterated version of the prisoner's dilemma problem. We show that for a sufficient quantity of iterations, our approach converges to the correct model faster than the same model under value iteration. 
+                    </span>
+                </li>
+				
+				<li>
+                    R. Mailler, J. Graves, N. Willy, T. Sarratt<br>
+                    A Biologically Accurate Simulation of the Locomotion of <i>Caenorhabditis elegans</i><br>
+                    <i>International Journal on Advances in Life Sciences</i>, 2011<br>
+                    → <a onclick="showabs('c_elegans11')">Abstract</a> | <a href="docs/c_elegans11.pdf">Paper</a> | <a href="docs/c_elegans11.txt">BibTex</a>
+                    <span class="abstract" id="c_elegans11"><br><b>Abstract:</b>
+						The nematode <i>Caenorhabditis elegans</i> is an important model organism for many areas of biological research including genetics, development, and neurobiology. It is the first organism to have its genome sequenced, complete cell ontogeny determined, and nervous system mapped. With all of the information that is available on this simple organism, <i>C. elegans</i> may also become the first organism to be accurately and completely modeled in silico. This work takes a first step toward this goal by presenting a biologically accurate, 3-dimensional simulated model of <i>C. elegans</i>. This model takes into account many facets of the organism including size, shape, weight distribution, muscle placement, and muscle force. It also explicitly models the environment of the worm to include factors such as contact, friction, inertia, surface tension, and gravity. The model was tuned and validated using video recordings taken of the worm to show that it accurately depicts the physics of undulatory locomotion used to forward and reverse crawl on an agar surface. The main contribution of this article is a new, highly detailed 3D physics model and supporting simulator that
+                    </span>
+                </li>
+				
+				<li>
+                    A. Padhi, R.E. Young, C. Hoffart, T. Sarratt, J. Fancher, M. Steffen, P.S.M. Hill<br>
+                    Investigating Genetic Relationships within Gryllotalpidae: A Molecular Hypothesis<br>
+                    <i>Journal of Orthoptera Research</i>, 2010<br>
+                    → <a onclick="showabs('gryllo10')">Abstract</a> | <a href="docs/gryllo10.pdf">Paper</a> | <a href="docs/gryllo10.txt">BibTex</a>
+                    <span class="abstract" id="gryllo10"><br><b>Abstract:</b>
+						We present a first preliminary molecular analysis of relationships among a sample of living members of the Gryllotalpidae, based on partial nucleotide sequence data of the 16S mitochondrial gene. Our analysis defines five groups that diverged from each other approximately 196 to 284 Mya in the Mesozoic era. This study supports the monophyly of the genus Scapteriscus and its placement in the subfamily Scapteriscinae, as well as the inclusion of the genus Triamescaptor in the subfamily Gryllotalpinae. The monophyly of the large genus Gryllotalpa is not supported, suggesting a revision of the genus is needed.
+                    </span>
+                </li>
+				
+				<li>
+                    S. Tyree, R. Kuplicki, T. Sarratt, S. Fujan, J. Hale<br>
+                    GridSPiM: A Framework for Simple Locality and Containment in the Stochastic π-Calculus<br>
+                    <i>Proceedings of the 1st International Conference on Bioinformatics and Computational Biology</i>, 2008<br>
+                    → <a onclick="showabs('gridspim08')">Abstract</a> | <a href="docs/gridspim08.txt">BibTex</a>
+                    <span class="abstract" id="gridspim08"><br><b>Abstract:</b>
+						Process calculi hold great promise for modeling and analysis of cellular mechanics and behavior. While measured success has been achieved in their simulation of specific biochemical pathways and molecular mechanisms within the cell, several obstacles remain to their widespread adoption and use. Chiefly, these have to with the difficulty of modeling cell membranes and localized behavior, and limitations on the scalability of the execution model. This paper describes a multi-layered formalism --- GridSPiM --- that engages notions of concurrency, locality and encapsulation to provide a framework suitable for capturing the key aspects of cellular processes.
+                    </span>
+                </li>
+				
+            </ul>
+
+            <b>Posters:</b>
+            
+            <ul class="pubs">
+                <li>
+                    T. Santarra, A. Jhala<br>
+                    Communicating Intentions for Coordination with Unknown Teammates<br>
+                    <i>Proceedings of the 2016 International Conference on Autonomous Agents & Multiagent Systems</i>, 2016<br>
+                    → <a onclick="showabs('aamas16_extabs')">Abstract</a> | <a href="docs/aamas16_extabs.pdf">Paper</a> | <a href="docs/aamas16_extabs.txt">BibTex</a>
+                    <span class="abstract" id="aamas16_extabs"><br><b>Abstract:</b>
+                        Ad hoc multiagent teamwork introduces the challenge of coordinating with a variety of potential teammates, including teammates with unknown behavior. We examine the communication of policy information for enhanced coordination between such agents. The proposed decision-theoretic approach examines the uncertainty within a model of an unfamiliar teammate, identifying and acquiring policy information valuable to the collaborative effort.
+                    </span>
+                </li>
+				
+				<li>
+                    T. Sarratt, A. Jhala<br>
+                    The Role of Models and Communication in the Ad Hoc Multiagent Team Decision Problem<br>
+                    <i>Proceedings of the Third Annual Conference on Advances in Cognitive Systems Poster Collection</i>, 2015<br>
+                    → <a onclick="showabs('acs15')">Abstract</a> | <a href="docs/acs15.pdf">Paper</a> | <a href="docs/acs15.txt">BibTex</a>
+                    <span class="abstract" id="acs15"><br><b>Abstract:</b>
+                        Ad hoc teams are formed of members who have little or no information regarding one another. In order to achieve a shared goal, agents are tasked with learning the capabilities of their teammates such that they can coordinate effectively. Typically, the capabilities of the agent teammates encountered are constrained by the particular domain specifications. However, for wide application, it is desirable to develop systems that are able to coordinate with general ad hoc agents independent of the choice of domain. We propose examining ad hoc multiagent teamwork from a generalized perspective and discuss existing domains within the context of our framework. Furthermore, we consider how communication of agent intentions can provide a means of reducing teammate model uncertainty at key junctures, requiring an agent to consider its own information deficiencies in order to form communicative acts improving team coordination.
+                    </span>
+                </li>
+				
+				<li>
+                    R.E. Young, T. Sarratt, P.S.M. Hill<br>
+                    Investigating Genetic Relationships within Gryllotalpidae: A Molecular Hypothesis<br>
+                    <i>Annual Meeting of the Animal Behavior Society</i>, 2010<br>
+                    → <a onclick="showabs('gryllo10_poster')">Abstract</a> 
+                    <span class="abstract" id="gryllo10_poster"><br><b>Abstract:</b>
+						We present a first preliminary molecular analysis of relationships among a sample of living members of the Gryllotalpidae, based on partial nucleotide sequence data of the 16S mitochondrial gene. Our analysis defines five groups that diverged from each other approximately 196 to 284 Mya in the Mesozoic era. This study supports the monophyly of the genus Scapteriscus and its placement in the subfamily Scapteriscinae, as well as the inclusion of the genus Triamescaptor in the subfamily Gryllotalpinae. The monophyly of the large genus Gryllotalpa is not supported, suggesting a revision of the genus is needed.
+                    </span>
+                </li>
+				
+				<li>
+                    S. Tyree, R. Kuplicki, T. Sarratt, S. Fujan, J. Hale<br>
+                    Towards a Multi-Level Calculus for Cellular Modeling and Simulation<br>
+                    <i>International Society for Computational Biology, Sixth Rocky Mountain Bioinformatics Conference</i>, 2008<br>
+                    → <a onclick="showabs('gridspim08_poster')">Abstract</a> 
+                    <span class="abstract" id="gridspim08_poster"><br><b>Abstract:</b>
+						Process calculi hold great promise for modeling and analysis of cellular mechanics and behavior. While measured success has been achieved in their simulation of specific biochemical pathways and molecular mechanisms within the cell, several obstacles remain to their widespread adoption and use. Chiefly, these have to with the difficulty of modeling cell membranes and localized behavior, and limitations on the scalability of the execution model. This paper describes a multi-layered formalism --- GridSPiM --- that engages notions of concurrency, locality and encapsulation to provide a framework suitable for capturing the key aspects of cellular processes.
+                    </span>
+                </li>
+            </ul>
+			
+			<b>Doctoral Consortium Presentations:</b>
+            
+            <ul class="pubs">
+                <li>
+                    T. Santarra<br>
+                    Adapting Plans through Communication with Unknown Teammates<br>
+                    <i>Proceedings of the 2016 International Conference on Autonomous Agents & Multiagent Systems</i>, 2016<br>
+                    → <a onclick="showabs('aamas16_doccon')">Abstract</a> | <a href="docs/aamas16_doccon.pdf">Paper</a> | <a href="docs/aamas16_doccon.txt">BibTex</a>
+                    <span class="abstract" id="aamas16_doccon"><br><b>Abstract:</b>
+						My thesis addresses the problem of planning under teammate behavior uncertainty by introducing the concept of intentional multiagent communication within ad hoc teams. In partially observable multiagent domains, agents much share information regarding aspects of the environment such that uncertainty is reduced across the team, permitting better coordination. Similarly, we consider how communication may be utilized within ad hoc teams to resolve behavioral uncertainty. Transmitting intentional messages allows agents to adjust predictions of a teammate’s individual course of action. In short, an ad hoc agent coordinating with an unknown teammate can identify uncertainties within its own predictive model of teammate behavior then request the appropriate policy information, allowing the agent to adapt its personal plan. The main contribution of this work is the characterization of the interaction between learning, communication, and planning in ad hoc teams.
+                    </span>
+                </li>
+				
+				<li>
+                    T. Sarratt<br>
+                    Adapting Plans through Communication with Unknown Teammates<br>
+                    <i>Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence</i>, 2016<br>
+                    → <a onclick="showabs('aaai16_doccon')">Abstract</a> | <a href="docs/aaai16_doccon.pdf">Paper</a> | <a href="docs/aaai16_doccon.txt">BibTex</a>
+                    <span class="abstract" id="aaai16_doccon"><br><b>Abstract:</b>
+						My thesis addresses the problem of planning under teammate behavior uncertainty by introducing the concept of intentional multiagent communication within ad hoc teams. In partially observable multiagent domains, agents much share information regarding aspects of the environment such that uncertainty is reduced across the team, permitting better coordination. Similarly, we consider how communication may be utilized within ad hoc teams to resolve behavioral uncertainty. Transmitting intentional messages allows agents to adjust predictions of a teammate’s individual course of action. In short, an ad hoc agent coordinating with an unknown teammate can identify uncertainties within its own predictive model of teammate behavior then request the appropriate policy information, allowing the agent to adapt its personal plan. The main contribution of this work is the characterization of the interaction between learning, communication, and planning in ad hoc teams.
+                    </span>
+                </li>
+				
+				<li>
+                    T. Sarratt<br>
+                    Leveraging Communication for Player Modeling and Cooperative Play<br>
+                    <i>Proceedings of the Tenth Artificial Intelligence and Interactive Digital Entertainment Conference</i>, 2014<br>
+                    → <a onclick="showabs('aiide2014_doccon')">Abstract</a> | <a href="docs/aiide2014_doccon.pdf">Paper</a> | <a href="docs/aiide2014_doccon.txt">BibTex</a>
+                    <span class="abstract" id="aiide2014_doccon"><br><b>Abstract:</b>
+						Collaboration between agents and players within games is a ripe area for exploration. As with adversarial AI, collaborative agents are challenged to accurately model players and adapt their behavior accordingly. The task of cooperation, however, allows for communication between teammates that can prove beneficial in coordinating joint actions and plans. Furthermore, we propose extending established multi-agent communication paradigms to include transfer of information pertinent to player models. By querying goal and preference information from a player, an agent can reduce uncertainty in coordination domains, allowing for more effective planning. We discuss the challenges as well as the planned development and evaluation of the system.
+                    </span>
+                </li>
+            </ul>
+
+        </div>
+
+		<div id="w3c">
+			<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional"></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://www.w3.org/Icons/valid-css2" alt="Valid CSS Level 2"></a>
+		</div>
+	
+</body></html>
